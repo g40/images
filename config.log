@@ -1,14 +1,194 @@
 -- Selecting Windows SDK version 10.0.17763.0 to target Windows 10.0.18362.
+-- The CXX compiler identification is MSVC 19.24.28315.0
+-- The C compiler identification is MSVC 19.24.28315.0
+-- Check for working CXX compiler: R:/vs2019/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working CXX compiler: R:/vs2019/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: R:/vs2019/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working C compiler: R:/vs2019/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Detected processor: AMD64
+-- Found PythonInterp: R:/apps/python3/python.exe (found suitable version "3.7.4", minimum required is "2.7") 
+CMake Warning at cmake/OpenCVDetectPython.cmake:81 (message):
+  CMake's 'find_host_package(PythonInterp 2.7)' founds wrong Python version:
+
+  PYTHON_EXECUTABLE=R:/apps/python3/python.exe
+
+  PYTHON_VERSION_STRING=3.7.4
+
+  Consider specify 'PYTHON2_EXECUTABLE' variable via CMake command line or
+  environment variables
+
+Call Stack (most recent call first):
+  cmake/OpenCVDetectPython.cmake:271 (find_python)
+  CMakeLists.txt:588 (include)
+
+
+-- Could NOT find Python2 (missing: Python2_EXECUTABLE Interpreter) 
+-- Found PythonInterp: r:/apps/python3/python.exe (found suitable version "3.7.4", minimum required is "3.2") 
+-- Found PythonLibs: r:/apps/python3/libs/python37.lib (found suitable exact version "3.7.4") 
+-- Performing Test HAVE_CXX_FP:PRECISE
+-- Performing Test HAVE_CXX_FP:PRECISE - Success
+-- Performing Test HAVE_C_FP:PRECISE
+-- Performing Test HAVE_C_FP:PRECISE - Success
+-- Performing Test HAVE_CPU_SSE3_SUPPORT (check file: cmake/checks/cpu_sse3.cpp)
+-- Performing Test HAVE_CPU_SSE3_SUPPORT - Success
+-- Performing Test HAVE_CPU_SSSE3_SUPPORT (check file: cmake/checks/cpu_ssse3.cpp)
+-- Performing Test HAVE_CPU_SSSE3_SUPPORT - Success
+-- Performing Test HAVE_CPU_SSE4_1_SUPPORT (check file: cmake/checks/cpu_sse41.cpp)
+-- Performing Test HAVE_CPU_SSE4_1_SUPPORT - Success
+-- Performing Test HAVE_CPU_POPCNT_SUPPORT (check file: cmake/checks/cpu_popcnt.cpp)
+-- Performing Test HAVE_CPU_POPCNT_SUPPORT - Success
+-- Performing Test HAVE_CPU_SSE4_2_SUPPORT (check file: cmake/checks/cpu_sse42.cpp)
+-- Performing Test HAVE_CPU_SSE4_2_SUPPORT - Success
+-- Performing Test HAVE_CXX_ARCH:AVX (check file: cmake/checks/cpu_fp16.cpp)
+-- Performing Test HAVE_CXX_ARCH:AVX - Success
+-- Performing Test HAVE_CXX_ARCH:AVX2 (check file: cmake/checks/cpu_avx2.cpp)
+-- Performing Test HAVE_CXX_ARCH:AVX2 - Success
+-- Performing Test HAVE_CXX_ARCH:AVX512 (check file: cmake/checks/cpu_avx512.cpp)
+-- Performing Test HAVE_CXX_ARCH:AVX512 - Success
+-- Performing Test HAVE_CPU_BASELINE_FLAGS
+-- Performing Test HAVE_CPU_BASELINE_FLAGS - Success
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_1
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_1 - Success
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_2
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_2 - Success
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_FP16
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_FP16 - Success
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX - Success
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX2
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX2 - Success
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX
+-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX - Success
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for fseeko
+-- Looking for fseeko - not found
+-- Check size of off64_t
+-- Check size of off64_t - failed
 -- libjpeg-turbo: VERSION = 2.0.2, BUILD = opencv-4.2.0-dev-libjpeg-turbo
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Looking for include file intrin.h
+-- Looking for include file intrin.h - found
+-- Looking for assert.h
+-- Looking for assert.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for io.h
+-- Looking for io.h - found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for malloc.h
+-- Looking for malloc.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for search.h
+-- Looking for search.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Performing Test C_HAS_inline
+-- Performing Test C_HAS_inline - Success
+-- Check size of signed short
+-- Check size of signed short - done
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Check size of signed int
+-- Check size of signed int - done
+-- Check size of unsigned int
+-- Check size of unsigned int - done
+-- Check size of signed long
+-- Check size of signed long - done
+-- Check size of signed long long
+-- Check size of signed long long - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of unsigned char *
+-- Check size of unsigned char * - done
+-- Check size of ptrdiff_t
+-- Check size of ptrdiff_t - done
+-- Looking for memmove
+-- Looking for memmove - not found
+-- Looking for setmode
+-- Looking for setmode - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - not found
+-- Looking for strchr
+-- Looking for strchr - found
+-- Looking for strrchr
+-- Looking for strrchr - found
+-- Looking for strstr
+-- Looking for strstr - found
+-- Looking for strtol
+-- Looking for strtol - found
+-- Looking for strtol
+-- Looking for strtol - found
+-- Looking for strtoull
+-- Looking for strtoull - found
+-- Looking for lfind
+-- Looking for lfind - found
+-- Performing Test HAVE_SNPRINTF
+-- Performing Test HAVE_SNPRINTF - Success
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- IPPICV: Download: ippicv_2019_win_intel64_20180723_general.zip
+-- found Intel IPP (ICV version): 2019.0.0 [2019.0.0 Gold]
+-- at: R:/src/libs/opencv/build/3rdparty/ippicv/ippicv_win/icv
+-- found Intel IPP Integration Wrappers sources: 2019.0.0
+-- at: R:/src/libs/opencv/build/3rdparty/ippicv/ippicv_win/iw
+-- Could not find OpenBLAS include. Turning OpenBLAS_FOUND off
+-- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- LAPACK requires BLAS
+-- A library with LAPACK API not found. Please specify library location.
+-- Could NOT find JNI (missing: JAVA_AWT_LIBRARY JAVA_JVM_LIBRARY JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 JAVA_AWT_INCLUDE_PATH) 
+-- ADE: Download: v0.1.1f.zip
 -- OpenCV Python: during development append to PYTHONPATH: R:/src/libs/opencv/build/python_loader
--- Pylint: registered 165 targets. Build 'check_pylint' target to run checks ("cmake --build . --target check_pylint" or "make check_pylint")
+-- Looking for mfapi.h
+-- Looking for mfapi.h - found
+-- Looking for d3d11_4.h
+-- Looking for d3d11_4.h - found
+CMake Warning at cmake/OpenCVGenSetupVars.cmake:54 (message):
+  CONFIGURATION IS NOT SUPPORTED: validate setupvars script in install
+  directory
+Call Stack (most recent call first):
+  CMakeLists.txt:950 (include)
+
+
 -- 
 -- General configuration for OpenCV 4.2.0-dev =====================================
 --   Version control:               4.2.0-81-g282fcb90dc
 -- 
 --   Platform:
---     Timestamp:                   2020-01-18T12:05:00Z
+--     Timestamp:                   2020-01-19T16:31:49Z
 --     Host:                        Windows 10.0.18362 AMD64
 --     CMake:                       3.16.2
 --     CMake generator:             Visual Studio 16 2019
@@ -16,29 +196,37 @@
 --     MSVC:                        1924
 -- 
 --   CPU/HW features:
---     Baseline:                    SSE SSE2 SSE3 SSSE3
---       requested:                 SSSE3
+--     Baseline:                    SSE SSE2 SSE3
+--       requested:                 SSE3
+--     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+--       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+--       SSE4_1 (14 files):         + SSSE3 SSE4_1
+--       SSE4_2 (1 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+--       FP16 (0 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+--       AVX (3 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+--       AVX2 (24 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+--       AVX512_SKX (2 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
 -- 
 --   C/C++:
---     Built as dynamic libs?:      YES
+--     Built as dynamic libs?:      NO
 --     C++ Compiler:                R:/vs2019/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe  (ver 19.24.28315.0)
---     C++ flags (Release):         /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise      /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP8   /MD /O2 /Ob2 /DNDEBUG  /Zi
---     C++ flags (Debug):           /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise      /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP8   /MDd /Zi /Ob0 /Od /RTC1 
+--     C++ flags (Release):         /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP8   /MD /O2 /Ob2 /DNDEBUG 
+--     C++ flags (Debug):           /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP8   /MDd /Zi /Ob0 /Od /RTC1 
 --     C Compiler:                  R:/vs2019/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
---     C flags (Release):           /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise        /MP8    /MD /O2 /Ob2 /DNDEBUG  /Zi
---     C flags (Debug):             /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise        /MP8  /MDd /Zi /Ob0 /Od /RTC1 
---     Linker flags (Release):      /machine:x64  /INCREMENTAL:NO  /debug
+--     C flags (Release):           /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise       /MP8    /MD /O2 /Ob2 /DNDEBUG 
+--     C flags (Debug):             /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise       /MP8  /MDd /Zi /Ob0 /Od /RTC1 
+--     Linker flags (Release):      /machine:x64  /INCREMENTAL:NO 
 --     Linker flags (Debug):        /machine:x64  /debug /INCREMENTAL 
 --     ccache:                      NO
 --     Precompiled headers:         YES
---     Extra dependencies:
---     3rdparty dependencies:
+--     Extra dependencies:          ade
+--     3rdparty dependencies:       ittnotify zlib libjpeg-turbo libpng libtiff ippiw ippicv
 -- 
 --   OpenCV modules:
---     To be built:                 core
---     Disabled:                    calib3d dnn features2d flann highgui imgcodecs imgproc java_bindings_generator ml objdetect photo stitching video videoio world
+--     To be built:                 core gapi imgcodecs imgproc ml python3 video videoio
+--     Disabled:                    calib3d dnn features2d flann highgui objdetect photo stitching ts world
 --     Disabled by dependency:      -
---     Unavailable:                 gapi java js python2 python3 ts
+--     Unavailable:                 java js python2
 --     Applications:                apps
 --     Documentation:               NO
 --     Non-free algorithms:         NO
@@ -51,17 +239,14 @@
 --   Media I/O: 
 --     ZLib:                        build (ver 1.2.11)
 --     JPEG:                        build-libjpeg-turbo (ver 2.0.2-62)
---     WEBP:                        build (ver encoder: 0x020e)
 --     PNG:                         build (ver 1.6.37)
 --     TIFF:                        build (ver 42 - 4.0.10)
---     OpenEXR:                     build (ver 2.3.0)
 --     HDR:                         YES
 --     SUNRASTER:                   YES
 --     PXM:                         YES
 --     PFM:                         YES
 -- 
 --   Video I/O:
---     GStreamer:                   NO
 --     DirectShow:                  YES
 --     Media Foundation:            YES
 --       DXVA:                      YES
@@ -71,19 +256,33 @@
 --   Trace:                         YES (with Intel ITT)
 -- 
 --   Other third-party libraries:
---     Eigen:                       NO
+--     Intel IPP:                   2019.0.0 Gold [2019.0.0]
+--            at:                   R:/src/libs/opencv/build/3rdparty/ippicv/ippicv_win/icv
+--     Intel IPP IW:                sources (2019.0.0)
+--               at:                R:/src/libs/opencv/build/3rdparty/ippicv/ippicv_win/iw
+--     Lapack:                      NO
 --     Custom HAL:                  NO
 --     Protobuf:                    build (3.5.1)
 -- 
---   OpenCL:                        YES (no extra features)
+--   OpenCL:                        YES (NVD3D11)
 --     Include path:                R:/src/libs/opencv/3rdparty/include/opencl/1.2
 --     Link libraries:              Dynamic load
 -- 
---   Python (for build):            r:/apps/python3/python3.exe
---     Pylint:                      R:/apps/python3/Scripts/pylint.exe (ver: 3.7.4, checks: 165)
---     Flake8:                      R:/apps/python3/Scripts/flake8.exe (ver: 3.7.9)
+--   Python 3:
+--     Interpreter:                 R:/apps/python3/python.exe (ver 3.7.4)
+--     Libraries:                   r:/apps/python3/libs/python37.lib (ver 3.7.4)
+--     numpy:                       R:/apps/python3/Lib/site-packages/numpy/core/include (ver 1.16.3)
+--     install path:                R:/apps/python3/Lib/site-packages/cv2/python-3.7
 -- 
---   Install to:                    R:/src/libs/opencv/build/install
+--   Python (for build):            R:/apps/python3/python.exe
+-- 
+--   Java:                          
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+-- 
+--   Install to:                    R:/src/libs/opencv/install
 -- -----------------------------------------------------------------
 -- 
 -- Configuring done
