@@ -79,7 +79,7 @@
 --     Include path:                R:/src/libs/opencv/3rdparty/include/opencl/1.2
 --     Link libraries:              Dynamic load
 -- 
---   Python (for build):            R:/apps/python3/python.exe
+--   Python (for build):            r:/apps/python3/python3.exe
 --     Pylint:                      R:/apps/python3/Scripts/pylint.exe (ver: 3.7.4, checks: 165)
 --     Flake8:                      R:/apps/python3/Scripts/flake8.exe (ver: 3.7.9)
 -- 
